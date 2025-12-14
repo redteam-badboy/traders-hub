@@ -9,14 +9,19 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "lucide-react": "^0.561.0",
+    "mongoose": "^9.0.1",
     "next": "16.0.10",
+    "next-auth": "^5.0.0-beta.30",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "daisyui": "^5.5.13",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
     "tailwindcss": "^4"
-  }
+  },
+  "browserslist": "> 1%"
 }
