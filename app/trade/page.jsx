@@ -34,6 +34,7 @@ export default function Page() {
     TP: "",
     lotSize: "",
     feeling: "",
+    result: "active"
   })
 
   const handleChange = (e) => {

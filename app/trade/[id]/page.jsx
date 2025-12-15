@@ -284,18 +284,18 @@ export default function TradePage() {
                   <div className="flex justify-between items-center">
                     <span className="text-slate-300">Pips to SL</span>
                     <span className="text-white font-bold">
-                      {(Math.abs(Number.parseFloat(trade.entryPrice) - Number.parseFloat(trade.SL)) * 10000).toFixed(1)}
+                      {(Math.abs(Number.parseFloat(trade.entryPrice) - Number.parseFloat(trade.SL)) * 1).toFixed(1)}
                     </span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-300">Pips to TP</span>
                     <span className="text-white font-bold">
-                      {(Math.abs(Number.parseFloat(trade.TP) - Number.parseFloat(trade.entryPrice)) * 10000).toFixed(1)}
+                      {(Math.abs(Number.parseFloat(trade.TP) - Number.parseFloat(trade.entryPrice)) * 1).toFixed(1)}
                     </span>
                   </div>
                   <div className="flex justify-between items-center pt-3 border-t border-amber-500/30">
-                    <span className="text-slate-300">Total Risk</span>
-                    <span className="text-amber-400 font-bold text-lg">{riskReward}R</span>
+                    <span className="text-slate-300">Total PnL</span>
+                    <span className="text-amber-400 font-bold text-lg">{trade.totalPL}R</span>
                   </div>
                 </div>
               </div>
