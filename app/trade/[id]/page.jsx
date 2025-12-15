@@ -206,8 +206,8 @@ export default function TradePage() {
                         <TrendingUp className="w-5 h-5 text-amber-400" />
                       </div>
                       <div className="flex-1">
-                        <p className="text-slate-400 text-sm mb-1">Risk/Reward</p>
-                        <p className="text-white font-bold text-xl">1:{riskReward}</p>
+                        <p className="text-slate-400 text-sm mb-1">Total PnL</p>
+                        <p className="text-white font-bold text-xl">{trade.totalPL}USD</p>
                       </div>
                     </div>
                   </div>
@@ -295,7 +295,7 @@ export default function TradePage() {
                   </div>
                   <div className="flex justify-between items-center pt-3 border-t border-amber-500/30">
                     <span className="text-slate-300">Total PnL</span>
-                    <span className="text-amber-400 font-bold text-lg">{trade.totalPL}R</span>
+                    <span className="text-amber-400 font-bold text-lg">{trade.totalPL} USD</span>
                   </div>
                 </div>
               </div>
